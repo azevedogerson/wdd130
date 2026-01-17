@@ -1,0 +1,44 @@
+main {
+    max-width: 840;
+  
+}
+
+  main{
+    text-align: center;
+  }
+    aside{
+    width: 20rem;
+    margin: 12rem;
+    border: 1px solid rgb(rgb(10, 150, 10),);
+    padding: 1rem;
+    background-color: rgb(158, 24, 6);
+    color: rgb(12, 12, 117);
+    text-align: center;
+}
+
+aside img {
+  width: 200px;
+  height: auto;
+}
+
+
+main img{
+
+   width: 300px;
+   height: auto;
+   image-resolution: inherit;
+   display: inline-block;
+   margin: 0 10px;
+   
+}
+p{padding: 0;}
+p{
+    line-height: 1.6;
+}
+
+footer{
+    margin-top: 15px;
+    border-top: 2px solid #18af0a;
+    text-align: center;
+   font-size: 0.9; 
+}                 
