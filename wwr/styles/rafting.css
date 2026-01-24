@@ -62,8 +62,16 @@ h1 {
     color: var(--secondary-color);
 }
 
+.hero article {
+    position: absolute;
+    bottom: 20px; /* Adjust this value to place it where you like */
+    left: 20px;   /* Adjust this value to place it where you like */
+    background-color: var(--accent2-color); /* Just an example */
+    color: white; /* Example for readability */
+}
+
 .hero article img {
     float: right;
-    width: 300px;
+    width: 130px;
 }
 
