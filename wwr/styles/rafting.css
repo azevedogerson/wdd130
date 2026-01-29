@@ -26,6 +26,7 @@ body{
 header, main, footer {
     width: 850px;
     margin: 0 auto;
+    text-align: center;
 }
 
 h1, h2 {
@@ -75,3 +76,13 @@ h1 {
     width: 130px;
 }
 
+.Adventure{
+    display: flex;
+    gap: 15px;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.Adventure{
+    text-align: center;
+}
