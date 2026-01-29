@@ -1,6 +1,6 @@
 :root{
-    --primary-color: #6de45d; 
-    --secondary-color: #990c0c;
+    --primary-color: rgba(109, 228, 93, 1); 
+    --secondary-color: rgba(153, 12, 12, 1);
     --accent1-color:rgba(0, 0, 0, 0.815);
     --accent2-color: rgba(80, 9, 68, 0.6);
     --heading-font: "Times New Roman", "Georgia", serif;
@@ -57,7 +57,7 @@ h1 {
     width: 98%;
     padding: 18px;
     text-align: center;
-    opacity: 0,6;
+    opacity: 0.6;
     background-color: #6de45d;
     color: var(--secondary-color);
 }
