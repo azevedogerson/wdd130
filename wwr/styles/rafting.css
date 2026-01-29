@@ -10,6 +10,10 @@
 header{
  background-color: var(--primary-color);
  color: var(--accent2-color);
+ padding: 10px 20px;
+ display: grid;
+ grid-template-columns: auto 1fr;
+ align-items: center;
 }
 
 * {
@@ -23,7 +27,7 @@ body{
     color: var(--accent1-color);
 }
 
-header, main, footer {
+header, main {
     width: 850px;
     margin: 0 auto;
     text-align: center;
@@ -33,9 +37,10 @@ h1, h2 {
     font-family: var(--heading-font);
     color: var(--secondary-color);
 }
-nav, p, section, article {
-    margin: 18px;
-    padding: 9px;
+nav {
+ display: flex;
+ justify-content: flex-end;
+ gap: 20px;
 }
 
 .socialmedia a {
@@ -44,6 +49,8 @@ nav, p, section, article {
 
 .hero {
     position: relative;
+    max-width: 850px;
+    margin: 0 auto;
 }
 
 .hero img {
@@ -55,20 +62,25 @@ nav, p, section, article {
 h1 {
     position: absolute;
     top: 20px;
-    width: 98%;
-    padding: 18px;
+    left: 0;
+    right: 0;
+    background-color: rgba(109, 228, 93, 0.9) ;
+    color: #990c0c;
+    padding: 15px;
     text-align: center;
-    opacity: 0.6;
-    background-color: #6de45d;
-    color: var(--secondary-color);
 }
 
 .hero article {
     position: absolute;
-    bottom: 20px; /* Adjust this value to place it where you like */
-    left: 20px;   /* Adjust this value to place it where you like */
-    background-color: var(--accent2-color); /* Just an example */
-    color: white; /* Example for readability */
+    bottom: 20px;
+    left: 20px;
+    right: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    color: white;
+    padding: 15px;
+    display: flex;
+    align-items: center;
+    gap: 15px;
 }
 
 .hero article img {
@@ -77,9 +89,36 @@ h1 {
 }
 
 .Adventure{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    max-width: 850px;
+    margin: 40px auto;
+    text-align: center;
+}
+
+.Adventure img{
+width: 100%;
+height: 140px;
+object-fit: cover;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 850px;
+    margin: 0 auto;
+    padding: 15px 0;
+
+}
+
+.socialmedia{
     display: flex;
     gap: 15px;
-    justify-content: center; 
-    flex-wrap: wrap;
-    text-align: center;
+    
+}
+
+.socialmedia img {
+    width: 40px;
 }
