@@ -47,29 +47,43 @@
             <form class="contact-form">
 
                 <label for="name">Name</label>
-                <input type="text" id="name" required>
+                <input type="text" id="name" name="name" required>
 
                 <label for="email">Email</label>
-                <input type="email" id="email" required>
+                <input type="email" id="email" name="email" required>
 
-                <p>Message Purpose</p>
-                <label>
-                    <input type="radio" name="Purpose" required> General Inquiry
+                <fieldset>
+                    <legend>Message Purpose</legend>
+
+                <label for="purpose-general">
+                    <input type="radio" id="purpose-general" name="purpose" value="general" required>
+                    General Inquiry
                 </label>
-                <label>
-                    <input type="radio" name="Purpose"> Website suggestion
-                </label>
+
+                    <label for="purpose-reservation">
+                        <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+                        Reservation Question
+                    </label>
+
+                    <label for="purpose-website">
+                        <input type="radio" id="purpose-website" name="purpose" value="website">
+                        Website Suggestion
+                    </label>
+                </fieldset>
 
                 <label for="message">Message</label>
-                <textarea id="message" required></textarea>
+                <textarea id="message" name="message" required></textarea>
 
-                <label>
-                    <input type="checkbox">
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
                     Please subscribe me to the monthly newsletter
                 </label>
 
-                <button type="submit"> Geet in Touch</button>
+                <button type="submit">Get in Touch</button>
+
             </form>
+
+             
         </section>
 
         <section class="employees">
@@ -110,6 +124,9 @@
             </a>
 
         </nav>
+
+        <p>Piano Conservatory - Beira, Mozambique &copy; 2026</p>
+
     </footer>
 
 
