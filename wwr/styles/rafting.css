@@ -176,3 +176,19 @@ footer{
     width: 50px;
 }
 
+.trips-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td{
+    border: 1px solid #200750;
+    padding: 10px;
+    text-align: center;
+}
